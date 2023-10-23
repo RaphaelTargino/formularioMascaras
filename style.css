@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 900px;
+    width: 100%;
+    margin: auto;
+}
+
+nav img {
+    max-width: 200px;
+    width: 100%;
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 25px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.quemSomos img { 
+    max-width: 300px;
+    width: 100%;
+}
+
+.flex {
+    display: flex;
+}
+
+.botoes button{
+    display: block;
+    justify-content: space-between;
+    margin: auto;
+    width: 100%;
+    max-width: 100%;
+    padding: 5px;
+    margin-bottom: 7px;
+}
+.quemSomos {
+    margin: 40px;
+}
+
+.botoesParagrafos h2 {
+    margin-bottom: 8px;
+}
+
+.botoesParagrafos {
+    margin-left: 20px;
+}
+
+.botoesParagrafos p {
+    margin-bottom: 22px;
+}
+
+form input,
+form textarea,
+form button{
+    display: block;
+    max-width: 100%;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+form textarea {
+    resize: none;
+}
+
+#formulario {
+    background-color: rgb(18, 119, 18);
+    padding: 20px;
+}
+
+#formulario h2 {
+    background-color: rgb(255, 255, 255);
+    padding: 25px 25px;
+    max-width: 400px;
+}
+
+form {
+    background-color: rgb(255, 255, 255);
+    padding: 25px 25px;
+    max-width: 400px;
+}
+
+button {
+    color: white;
+    background-color: rgb(18, 119, 18);
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.botoes h3 {
+    display: none;
+}
